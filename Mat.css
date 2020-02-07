@@ -1,0 +1,108 @@
+ @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+		* {
+			margin: 0;
+			padding: 0;
+		}
+
+		.main {
+			height: 100px;
+			width: 900px;
+			position: absolute;
+			margin-top: 100px;
+			margin-left: 300px;
+			display: inline-block;
+		}
+
+		.main #inpt {
+			height: 100px;
+			width: 750px;
+			border: 5px solid black;
+			border-radius: 5px;
+			margin-left: 10px;
+            font-size: 45px;
+            cursor: pointer;
+            font-family: 'Roboto', sans-serif;
+		    transition: 900ms ease;
+		    -o-transition: 900ms ease;
+		    -mozila-transition: 900ms ease;
+		    -webkit-transition: 900ms ease;
+		}
+
+		.main #inpt:hover {
+			border: 5px solid purple;
+		}
+
+		.main .btn {
+			height: 100px;
+			width: 200px;
+			float: right;
+			margin-top: 5px;
+			cursor: pointer;
+			margin-right: -80px;
+			border: 0;
+			background-color: black;
+			transition: 900ms ease;
+			-o-transition: 900ms ease;
+			-mozila-transition: 900ms ease;
+			-webkit-transition: 900ms ease;
+		}
+
+        .main .btn:hover {
+             transform: rotate(-360deg);
+        }
+
+        .main .btn #t {
+        	font-size: 45px;
+        	font-family: 'Roboto', sans-serif;
+        	color: white;
+        	justify-content: center;
+        	transition: 800ms ease;
+        	-o-transition: 800ms ease;
+        	-mozila-transition: 800ms ease;
+        	-webkit-transition: 800ms ease;
+        }
+
+        .main .btn #t:hover {
+        	text-shadow: 0 0 25px white;
+        	transform: translateY(5px);
+        }
+        .container {
+        	width: 900px;
+        	height: 2000px;
+        	position: absolute;
+        	margin-top: 250px;
+        	margin-left: 305px;
+        }
+
+        .container .blck {
+        	height: 100px;
+        	width: 900px;
+        	font-size: 40px;
+        	margin-top: 25px;
+        	border: 5px solid black;
+        	transition: 900ms ease;
+        	-o-transition: 900ms ease;
+        	-mozila-transition: 900ms ease;
+        	-webkit-transition: 900ms ease;
+        }
+
+        .container .blck:hover {
+        	transform: translateY(5px);
+        }
+
+        .container .blck .Text {
+        	font-size: 50px;
+        	font-family: 'Roboto', sans-serif;
+        	position: absolute;
+        	margin-top: 15px;
+        	margin-left: 10px;
+        	transition: 900ms ease;
+        	-o-transition: 900ms ease;
+        	-mozila-transition: 900ms ease;
+        	-webkit-transition: 900ms ease;
+        }
+
+        .container .blck .Text:hover {
+        	opacity: .8;
+        }
